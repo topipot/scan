@@ -15,11 +15,11 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.7.6 # Adjust to your Python version
+          python-version: 3
 
       - name: Install Dependencies
         run: |
-          pip install kivy # Install Kivy and other dependencies
+          pip install kivy 
           pip install qrcode
           pip install pyzbar
           pip install opencv-python
